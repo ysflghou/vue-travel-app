@@ -1,6 +1,6 @@
 <template>
   <span class="go-back">
-    <button @click="goBack">Go Back</button>
+    <button class="btn" @click="goBack">Go Back</button>
   </span>
 </template>
 <script>
@@ -16,8 +16,5 @@ export default {
 .go-back {
   display: flex;
   cursor: pointer;
-}
-button {
-  border: 0;
 }
 </style>
